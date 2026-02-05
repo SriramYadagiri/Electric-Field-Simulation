@@ -64,9 +64,10 @@ function setup() {
   size = 30; 
   
   // Initialize with some particles
-  particles.push(new Particle(5, 100, 200));
-  particles.push(new Particle(-5, 300, 200));
-  particles.push(new Particle(-5, 200, 400));
+  particles.push(new Particle(5, 500, 300));
+  particles.push(new Particle(-5, 400, 200));
+  particles.push(new Particle(-5, 600, 200));
+  particles.push(new Particle(5, 500, 100));
   
   grid = new Grid(size);
   
